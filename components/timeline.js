@@ -28,18 +28,18 @@ export const Timeline = ({ data }) => {
       className="w-full bg-black dark:bg-neutral-950 font-sans md:px-10"
       ref={containerRef}
     >
-      <div className="max-w-7xl mx-auto py-10 px-4 md:px-8 lg:px-10">
-        <h2 className="text-lg md:text-4xl mb-4 text-white dark:text-white max-w-4xl">
-          "Create.Inpire.Repeat."
-        </h2>
+      {/* <div className="max-w-7xl mx-auto py-10 px-4 md:px-8 lg:px-10"> */}
+        {/* <h2 className="text-lg md:text-4xl mb-4 text-white dark:text-white max-w-4xl"> */}
+          {/* "Create.Inpire.Repeat." */}
+        {/* </h2> */}
 
-        <p className="text-neutral-200 dark:text-neutral-300 text-sm md:text-base max-w-sm">
+        {/* <p className="text-neutral-200 dark:text-neutral-300 text-sm md:text-base max-w-sm"> */}
           {/* I&apos;ve been working on Aceternity for the past 2 years. Here&apos;s
           a timeline of my journey. */}
-          When in doubt, Just Add another Div - We've All Been There.
-        </p>
+          {/* When in doubt, Just Add another Div - We've All Been There. */}
+        {/* </p> */}
 
-      </div>
+      {/* </div> */}
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
         {data.map((item, index) => (
           <div

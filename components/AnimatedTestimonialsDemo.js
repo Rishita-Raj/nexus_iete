@@ -1,26 +1,27 @@
 import { AnimatedTestimonials } from "./animated-testimonials";
+import { GrAchievement } from "react-icons/gr";
 
 export function AnimatedTestimonialsDemo() {
   const testimonials = [
     {
       quote:
-        "The attention to detail and innovative features have completely transformed our workflow. This is exactly what we've been looking for.",
+        "Here's your chance to bring your creativity and coding expertise to life. Impress the judges with your innovative web solutions and stand a chance to win exciting prizes, exclusive goodies, and cash rewards! of upto 20K",
       name: "Sarah Chen",
-      designation: "Product Manager at TechFlow",
+      designation: "PRIZES : Grab your chance to win amazing rewards",
       src: "/img/prize.jpg",
     },
     {
       quote:
-        "Implementation was seamless and the results exceeded our expectations. The platform's flexibility is remarkable.",
+        "Registration for Nexus, organized by the IETE Club, is now open! Showcase your web development skills, tackle exciting challenges, and compete with like-minded enthusiasts.",
       name: "Michael Rodriguez",
-      designation: "CTO at InnovateSphere",
+      designation: " REGISTER YOURSELF!",
       src: "/img/registration.jpg",
     },
     {
       quote:
-        "This solution has significantly improved our team's productivity. The intuitive interface makes complex tasks simple.",
+        "Our sponsors have generously contributed to make this event bigger and better, offering exciting prizes, exclusive goodies, and cash rewards for our participants. Their involvement reflects their commitment to empowering the next generation of developers and innovators.",
       name: "Emily Watson",
-      designation: "Operations Director at CloudScale",
+      designation: "SPONSORSHIPS...",
       src: "/img/sponsors.jpg",
     },
     // {

@@ -9,11 +9,11 @@ export function HeroScrollDemo() {
       <ContainerScroll
         titleComponent={
           <>
-            <h1 className="text-4xl font-semibold text-white dark:text-white  mb-20">
+            <h1 className="text-xl sm:text-4xl font-semibold text-white dark:text-white mb-10 sm:mb-20">
             WELCOME TO THE WORLD OF DEVELOPMENT <br />
               {/* Unleash the power of <br /> */}
               
-              <span className="text-4xl md:text-[7rem] font-bold mt-1 leading-none bg-gradient-to-r from-blue-200 via-gray-700 to-blue-950    text-transparent bg-clip-text">
+              <span className="text-5xl md:text-[7rem] font-bold mt-1 leading-none bg-gradient-to-r from-blue-200 via-gray-700 to-gray-400  text-transparent bg-clip-text">
                 {/* Scroll Animations */}
                 NEXUS-3.0
               </span>
@@ -21,11 +21,11 @@ export function HeroScrollDemo() {
           </>
         }>
         <Image
-          src="/img/e4.jpg"
+          src="/img/nexus-3.jpg"
           alt="hero"
           height={720}
           width={1400}
-          className="mx-auto rounded-2xl object-cover h-full object-left-top w-full"
+          className=" mx-auto rounded-2xl object-cover h-full object-left-top w-full"
           draggable={false} />
       </ContainerScroll>
     </div>)
