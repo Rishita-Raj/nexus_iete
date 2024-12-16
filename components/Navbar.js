@@ -41,10 +41,10 @@ const Navbar = () => {
         {/* </div> */}
         <div className="flex flex-row md:block w-full sm:w-auto  ">
         <button className="bg-gradient-to-r from-blue-200 via-gray-700 to-gray-500 rounded-full  bg-white text-white mr-1 sm:mr-5 font-bold md:px-4 md:py-2 px-1 sm:px-2 py-1  sm:py-1 text-xs sm:text-1.8xl transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none ...">
-  REGISTER
+  <a href="https://bit.ly/Nexus_registration">REGISTER</a> 
 </button>
         <button className="bg-gradient-to-r from-blue-200 via-gray-700 to-gray-500 rounded-full  bg-white text-white mr-1 sm:mr-5 font-bold md:px-4 md:py-2 px-1 sm:px-2 py-1  sm:py-1 text-xs sm:text-1.8xl transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none ...">
-        PROBLEM STATEMENT
+      <a href="https://drive.google.com/drive/folders/1mP2vj6AM4TBU4h9LRxx97CSZG6H9SHZj">PROBLEM STATEMENT</a>  
 </button>
        
         </div>

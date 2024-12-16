@@ -7,7 +7,7 @@ import { AnimatedTestimonialsDemo } from "@/components/AnimatedTestimonialsDemo"
 // import GoogleGeminiEffectDemo from "@/components/GoogleGeminiEffectDemo";
 import { HeroScrollDemo } from "@/components/HeroScrollDemo";
 import { InfiniteMovingCardsDemo } from "@/components/InfiniteMovingCards";
-import { MarqueeDemo } from "@/components/MarqueDemo";
+// import { MarqueeDemo } from "@/components/MarqueDemo";
 import { TimelineDemo } from "@/components/TimelineDemo";
 // import Image from "next/image";
 
