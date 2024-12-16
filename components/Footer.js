@@ -71,7 +71,7 @@ const Footer = () => {
   return (
     <div>
       <footer className="bg-gray-300 mt-10 mb-5 py-6 px-5 text-gray-800">
-        <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           
           {/* Logo and Social Media Links */}
           <div className="text-center md:text-left">
@@ -79,7 +79,7 @@ const Footer = () => {
               <img
                 src="/img/ieteLogo.png"
                 alt="navLogo"
-                className="mx-auto md:mx-0 hover:scale-105 transition-all mt-2"
+                className=" mx-auto md:mx-4 hover:scale-105 transition-all mt-2"
                 width={80}
                 height={30}
               />
@@ -116,7 +116,7 @@ const Footer = () => {
           </div> */}
 
           {/* Contact Information */}
-          <div className='mr-30 sm:ml-0'>
+          <div className=' mr-30 sm:mr-5 sm:ml-0'>
             <h3 className="text-xl font-bold mb-4 text-center md:text-left">Contacts</h3>
             <ul className="space-y-3">
               <li className=''>
@@ -148,3 +148,86 @@ const Footer = () => {
 };
 
 export default Footer;
+
+// import React from 'react';
+// import { FaFacebookF, FaInstagram, FaLinkedin, FaPhone } from "react-icons/fa";
+// import { CiLocationOn } from "react-icons/ci";
+// import Link from 'next/link';
+
+// const Footer = () => {
+//   return (
+
+// <div>
+//   <footer className="bg-gray-300 mt-10 mb-5 py-6 px-5 text-gray-800">
+//     <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 md:gap-4">
+      
+//       {/* Logo and Social Media Links */}
+//       <div className="text-center md:text-left">
+//         <Link href="/">
+//           <img
+//             src="/img/ieteLogo.png"
+//             alt="navLogo"
+//             className="mx-auto md:mx-0 hover:scale-105 transition-all mt-2"
+//             width={80}
+//             height={30}
+//           />
+//         </Link>
+//         <div className="flex justify-center md:justify-start space-x-4 mt-4">
+//           <Link href="https://www.facebook.com/ietebits">
+//             <FaFacebookF className="text-white h-8 w-8 rounded-full bg-blue-800 p-2 hover:opacity-90" />
+//           </Link>
+//           <Link href="https://www.instagram.com/ietebits?igsh=eXVoamFtdjUwcm16">
+//             <FaInstagram className="text-white h-8 w-8 rounded-full bg-pink-400 p-2 hover:opacity-90" />
+//           </Link>
+//           <Link href="https://www.linkedin.com/company/iete-students-chapter-bit-sindri123/">
+//             <FaLinkedin className="text-white h-8 w-8 rounded-full bg-blue-500 p-2 hover:opacity-90" />
+//           </Link>
+//         </div>
+//       </div>
+
+//       {/* Placeholder for Other Links */}
+//       <div>
+//         <h3 className="text-xl font-bold mb-4 text-center md:text-left"></h3>
+//         <ul className="space-y-2 text-center md:text-left">
+//           <li><Link href="/"></Link></li>
+//           <li><Link href="/about"></Link></li>
+//           <li><Link href="/contact"></Link></li>
+//         </ul>
+//       </div>
+
+//       {/* Contact Information */}
+//       <div className="mr-30 sm:ml-0">
+//         <h3 className="text-xl font-bold mb-4 text-center md:text-left">Contacts</h3>
+//         <ul className="space-y-3">
+//           <li>
+//             <FaPhone className="inline-block align-middle mr-2" />
+//             Priyanshu Mukherjee (2021) - 9142040066
+//           </li>
+//           <li>
+//             <FaPhone className="inline-block align-middle mr-2" />
+//             Adarsh Kumar (2022) - 7909041883
+//           </li>
+//           <li>
+//             <FaPhone className="inline-block align-middle mr-2" />
+//             Faizan Ahmad (2022) - 8102061756
+//           </li>
+//         </ul>
+//       </div>
+//     </div>
+//   </footer>
+
+//   {/* Footer Bottom */}
+//   <div className="bg-black text-center text-neutral-300 py-3">
+//     <p>
+//       &copy;2024 All rights reserved | IETE Students' Forum BIT Sindri <br />
+//       Made with <span className="text-red-600">❤</span> and support, Team IETE
+//     </p>
+//   </div>
+// </div>
+
+//   );
+// };
+
+
+
+// export default Footer;
