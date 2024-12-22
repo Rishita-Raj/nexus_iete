@@ -51,22 +51,22 @@ export function InfiniteMovingCardsDemo() {
 const testimonials = [
   {
     image: "/img/sponser-11.png",
-    name: "Coding Blocks",
+    // name: "Coding Blocks",
     // title: "A Tale of Two Cities",
   },
   {
     image: "/img/sponser-22.png",
-    name: "GeeksForGeeks",
+    // name: "GeeksForGeeks",
     // title: "Hamlet",
   },
   {
     image: "/img/sponser-33.png",
-    name: "Coding Ninjas",
+    // name: "Coding Ninjas",
     // title: "A Dream Within a Dream",
   },
   {
     image: "/img/sponser-44.png",
-    name: "Rosenfeld",
+    // name: "Rosenfeld",
     // title: "Pride and Prejudice",
   },
   // {

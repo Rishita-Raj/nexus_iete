@@ -206,9 +206,9 @@ export const InfiniteMovingCards = ({
                 className="object-contain rounded-md w-full h-full "
               />
               <div className="relative z-20 mt-4 flex flex-col items-center">
-                <span className="text-lg leading-[1.6] text-gray-100 font-bold">
+                {/* <span className="text-lg leading-[1.6] text-gray-100 font-bold">
                   {item.name}
-                </span>
+                </span> */}
                 <span className="text-sm leading-[1.6] text-gray-400 font-normal">
                   {item.title}
                 </span>
