@@ -83,6 +83,7 @@ const Footer = () => {
                 width={80}
                 height={30}
               />
+              {/* deihdgewig */}
             </Link>
             <div className="flex justify-center md:justify-start space-x-4 mt-4">
               <Link href="https://www.facebook.com/ietebits">
